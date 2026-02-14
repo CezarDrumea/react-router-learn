@@ -112,7 +112,6 @@ a {
 }
 
 .button {
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   padding: 0.55rem 1.1rem;
@@ -122,6 +121,10 @@ a {
   color: #fff;
   font-weight: 500;
   cursor: pointer;
+}
+
+.button--back {
+  width: 6rem;
 }
 
 .button--ghost {

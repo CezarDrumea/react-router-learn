@@ -1,4 +1,4 @@
-export type LessonLevel = "begginer" | "intermediate" | "advanced";
+export type LessonLevel = "beginner" | "intermediate" | "advanced";
 
 export type Lesson = {
   id: string;
@@ -12,14 +12,14 @@ export const lessons: Lesson[] = [
   {
     id: "intro",
     title: "What is React Router?",
-    level: "begginer",
+    level: "beginner",
     duration: "5 min",
     summary: "Single page navigation with URLs that map to UI",
   },
   {
     id: "links",
     title: "Links, NavLink and Active Styles",
-    level: "begginer",
+    level: "beginner",
     duration: "10 min",
     summary: "Navigate without reloading and show active states",
   },

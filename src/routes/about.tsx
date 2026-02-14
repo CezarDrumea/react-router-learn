@@ -1,4 +1,8 @@
+import { useNavigate } from "react-router";
+
 const About = () => {
+  const navigate = useNavigate();
+
   return (
     <section className="stack">
       <h1>Why React Router</h1>
@@ -8,6 +12,12 @@ const About = () => {
         fugiat consectetur voluptates, impedit fuga, recusandae possimus eaque
         consequatur sequi!
       </p>
+      <button
+        className="button button--ghost button--back"
+        onClick={() => navigate(-1)}
+      >
+        Go back
+      </button>
     </section>
   );
 };
